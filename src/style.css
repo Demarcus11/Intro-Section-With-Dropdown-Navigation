@@ -422,7 +422,7 @@ ul {
 /* Hero */
 
 .remote-section__hero {
-  background-image: url("images/image-hero-mobile.png");
+  background-image: url("../images/image-hero-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 20rem;
@@ -430,7 +430,7 @@ ul {
 
 @media (min-width: 781px) {
   .remote-section__hero {
-    background-image: url("images/image-hero-desktop.png");
+    background-image: url("../images/image-hero-desktop.png");
     background-size: contain;
   }
 }

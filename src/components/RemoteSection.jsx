@@ -1,3 +1,8 @@
+import databiz from "../../images/client-databiz.svg";
+import audiophile from "../../images/client-audiophile.svg";
+import meet from "../../images/client-meet.svg";
+import maker from "../../images/client-maker.svg";
+
 export function RemoteSection() {
   return (
     <section className="remote-section | content-flow">
@@ -16,10 +21,10 @@ export function RemoteSection() {
         </div>
 
         <div className="partners | flex-group">
-          <img src="images\client-databiz.svg" alt="databiz logo" />
-          <img src="images\client-audiophile.svg" alt="audiophile logo" />
-          <img src="images\client-meet.svg" alt="meet logo" />
-          <img src="images\client-maker.svg" alt="maker logo" />
+          <img src={databiz} alt="databiz logo" />
+          <img src={audiophile} alt="audiophile logo" />
+          <img src={meet} alt="meet logo" />
+          <img src={maker} alt="maker logo" />
         </div>
       </div>
 
