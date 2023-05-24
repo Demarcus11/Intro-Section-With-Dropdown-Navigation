@@ -87,7 +87,7 @@ export function PrimaryNav({
               <ul className="dropdown__sublinks | flex">
                 {featuresLinks.map((link, index) => (
                   <li className="sublinks__link | flex" key={index}>
-                    <img src={`${link.icon}`} alt="" />
+                    <img src={link.icon} alt="" />
                     <a href={link.url}>{link.title}</a>
                   </li>
                 ))}
