@@ -1,5 +1,9 @@
 import Logo from "../../images/logo.svg";
 import arrowDown from "../../images/icon-arrow-down.svg";
+import todoIcon from "../../images/icon-todo.svg";
+import calendarIcon from "../../images/icon-calendar.svg";
+import remindersIcon from "../../images/icon-reminders.svg";
+import planningIcon from "../../images/icon-planning.svg";
 
 /* eslint-disable react/prop-types */
 export function PrimaryNav({
@@ -10,22 +14,22 @@ export function PrimaryNav({
 }) {
   const featuresLinks = [
     {
-      icon: "../../images/icon-todo.svg",
+      icon: todoIcon,
       url: "#",
       title: "Todo List",
     },
     {
-      icon: "../../images/icon-calendar.svg",
+      icon: calendarIcon,
       url: "#",
       title: "Calendar",
     },
     {
-      icon: "../../images/icon-reminders.svg",
+      icon: remindersIcon,
       url: "#",
       title: "Reminders",
     },
     {
-      icon: "../../images/icon-planning.svg",
+      icon: planningIcon,
       url: "#",
       title: "Planning",
     },
