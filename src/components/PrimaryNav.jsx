@@ -1,11 +1,5 @@
 import Logo from "../../images/logo.svg";
-import todoIcon from "../../images/icon-todo.svg";
-import calendarIcon from "../../images/icon-calendar.svg";
-import remindersIcon from "../../images/icon-reminders.svg";
-import planningIcon from "../../images/icon-planning.svg";
 import arrowDown from "../../images/icon-arrow-down.svg";
-import closeMenuIcon from "../../images/icon-close-menu.svg";
-import mobileMenuIcon from "../../images/icon-menu.svg";
 
 /* eslint-disable react/prop-types */
 export function PrimaryNav({
@@ -13,9 +7,45 @@ export function PrimaryNav({
   handleMenuClick,
   menuClicked,
   expandedIndices,
-  featuresLinks,
-  companyLinks,
 }) {
+  const featuresLinks = [
+    {
+      icon: "../../images/icon-todo.svg",
+      url: "#",
+      title: "Todo List",
+    },
+    {
+      icon: "../../images/icon-calendar.svg",
+      url: "#",
+      title: "Calendar",
+    },
+    {
+      icon: "../../images/icon-reminders.svg",
+      url: "#",
+      title: "Reminders",
+    },
+    {
+      icon: "../../images/icon-planning.svg",
+      url: "#",
+      title: "Planning",
+    },
+  ];
+
+  const companyLinks = [
+    {
+      url: "#",
+      title: "History",
+    },
+    {
+      url: "#",
+      title: "Our Team",
+    },
+    {
+      url: "#",
+      title: "Blog",
+    },
+  ];
+
   return (
     <header className="primary-header | container flex">
       <div className="logo">

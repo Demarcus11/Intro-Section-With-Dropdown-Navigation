@@ -35,44 +35,6 @@ export default function App() {
     };
   }, [menuClicked]);
 
-  const featuresLinks = [
-    {
-      icon: "../../images/icon-todo.svg",
-      url: "#",
-      title: "Todo List",
-    },
-    {
-      icon: "../../images/icon-calendar.svg",
-      url: "#",
-      title: "Calendar",
-    },
-    {
-      icon: "../../images/icon-reminders.svg",
-      url: "#",
-      title: "Reminders",
-    },
-    {
-      icon: "../../images/icon-planning.svg",
-      url: "#",
-      title: "Planning",
-    },
-  ];
-
-  const companyLinks = [
-    {
-      url: "#",
-      title: "History",
-    },
-    {
-      url: "#",
-      title: "Our Team",
-    },
-    {
-      url: "#",
-      title: "Blog",
-    },
-  ];
-
   return (
     <>
       <PrimaryNav
@@ -80,8 +42,6 @@ export default function App() {
         handleMenuClick={handleMenuClick}
         menuClicked={menuClicked}
         expandedIndices={expandedIndices}
-        featuresLinks={featuresLinks}
-        companyLinks={companyLinks}
       />
 
       <main>
