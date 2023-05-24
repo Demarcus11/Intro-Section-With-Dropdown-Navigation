@@ -36,13 +36,13 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Screenshot
 
-![Desktop](./screenshot.jpg)
-![Mobile](./screenshot.jpg)
+![Desktop](https://drive.google.com/uc?export=view&id=1LcA8_aU5xhn7qF3KxLxTfHKDsVFzxXaL)
+![Mobile](https://drive.google.com/uc?export=view&id=1bxtIvV1tW8Pg3o9iQLLLkuHlC8laEqWz)
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Demarcus11/Intro-Section-With-Dropdown-Navigation.git)
+- Live Site URL: [Live](https://demarcus11.github.io/Intro-Section-With-Dropdown-Navigation/)
 
 ## My process
 
